@@ -1,0 +1,90 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+      background-color: #b58e8e; /* Change the background color */
+}
+ /* This format is for the cat image used on resume page */
+.avatarimage {
+  max-width: 75%; 
+  height: auto; 
+  border-radius: 10px;}
+
+  .proficiency-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+header, footer {
+  background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0; 
+}
+
+h1 {
+  margin: 0;
+}
+
+.menu, #contactme-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust the margin */
+}
+
+.headerText, #contactme-nav a {
+  margin: 0 20px; /* Increase margin for better spacing */
+  text-decoration: none;
+  color: #fff;
+}
+
+.AboutMeClass, .ContactMeClass, .ResumeClass {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #b68c8c;
+}
+
+
+#aboutMeArticle {
+  max-width: 900px; /* Increase the max-width for better readability */
+  margin: 0 auto;
+}
+
+.text {
+  line-height: 1.6; /* Adjust line height for better readability */
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between; /* Change to space-between for better alignment */
+  flex-wrap: wrap;
+  padding: 30px; /* Adjust padding for better spacing */
+}
+
+.ProjectClass {
+  max-width: 350px; /* Increase max-width for better presentation */
+  margin: 30px;
+  text-align: center;
+  background-color: #fff; /* Change the background color */
+  padding: 20px;
+  border-radius: 10px; /* Add border-radius for a rounded look */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box-shadow for a subtle effect */
+}
+
+#contactme-nav {
+  margin-top: 30px; /* Adjust the margin-top */
+}
+
+#contactme-nav a {
+  display: inline-block; /* Change to inline-block for better alignment */
+  margin-right: 10px; /* Adjust margin for better spacing */
+  color: #555; /* Change the text color */
+  text-decoration: none;
+}
